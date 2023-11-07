@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hands on week 10</title>
+    <style>
+
+        form{
+            margin: 0 auto;
+            width: 210px;
+            margin-top: 100px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <table border="1"></table>
+        <tr>
+            <td  welcomemessage="hello world"colspan="2"></td>
+        </tr>
+            <tr>
+                
+                    <td colspan="2"></td>
+                   
+                    <input 
+                        name="username"
+                        type="text" 
+                        id="Username"  
+                        placeholder="Type ypur username "  
+                        tabindex="1" 
+                        style="width: 200px;" 
+                        autofocus
+                        maxlength="32"
+                        required>
+                    
+                    </td>
+                    
+                
+                <tr>
+                    <td colspan="2">
+                    
+                        <input 
+                            type="Password" 
+                            input id="Password" 
+                            placeholder="Type your password"
+                            tabindex="2"
+                            maxlength="32"
+                            style="width: 200px;">
+
+                        </td>
+                    
+                    
+
+                </tr>
+
+                    <tr>
+                        <td><input 
+                            id="bttn_reset" 
+                            type="reset"   
+                            value="reset" 
+                            name="Resetbutton"
+                            style="width: 100px;"
+                            tabindex="3">
+                        </td>
+
+
+                        <td><input 
+                            id="bttn_submit" 
+                            type="submit" 
+                            value="submit" 
+                            name="sumbit "  
+                            style="width:100px;"
+                            tabindex="4">
+                        </td>
+                       
+
+
+
+                    </tr>
+
+
+
+
+
+            </tr>
+
+
+
+    </form>
+    <form>
+            <!-- All radios must have the same name  -->
+        <input type="radio" id="rButton_1"/> option 1 <br/>
+        <input type="radio" id="rButton_2"/> option 2 <br/>
+        <input type="radio" id="rButton_3"/> option 3<br/>
+        
+    </form>
+
+</body>
+
+</html>
