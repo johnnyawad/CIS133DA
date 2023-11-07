@@ -12,28 +12,43 @@
         }
         
         table{
-            border-spacing: 40%;
+            border-spacing: 2%;
             width: 40%;
+            
+            
+            
 
         }
-        thead,tfoot{
-            background-color:white;
-            color: black;
+        .center{
+            margin-left: auto;
+            margin-right: auto;
+            padding: 25px;
+            width: 40%;
+        }
+        thead{
+            background-color:red;
+            color: white;
             font-family: Arial, Helvetica, sans-serif;
             padding: 25px;
         }
         th,td{
+            text-align: center;
             padding: 25px;
 
         }
+
         th population{
             text-align: center;
         }
         nbr{
             text-align: right;
         }
-        tbody>td:nth-child(even){
+        tbody>tr:nth-child(even){
+            background-color: darkorange;
             background-color: yellow;
+        }
+        img{
+            border-image-width:95%;
         }
 
     </style>
@@ -52,17 +67,19 @@
         population. It anchors the Arizona Sun Corridor megaregion along with the second most populous metropolitan area in the state, the Tucson metropolitan 
         area. The gross domestic product of the Phoenix Metropolitan Area was $255 billion in 2018, 16th largest amongst metro areas in the United States.
     </p>
-<table>
+<table class="center">
         <thead>
             <tr>
 
             <th colspan="3">Cities and Suburbs Population</th> 
                  <tr>
+                    
                      <th>City Name</th>
                     <th>Population</th> 
                      <th>Founded</th> 
                  </tr>
             </tr>
+            <tbody>
 <tr>
 <td class="nbr">Phoenix</td>
 <td class="nbr">1,608,139</td>
@@ -120,6 +137,7 @@
 
 
 </tr>
+</tbody>
 </thead>
 </table>
 <tfoot>
@@ -127,9 +145,10 @@
         <th colspan="3"></th>Data from Wikipedia 06/2022</th>
     </tr>   
 </tfoot>
-<table>
-      
+
+    <table class="center">  
     <tr>
+        
         <td>
         <td><img class="cityImg" src="./images/phoenix.jpg" alt="Picture of the city of Phoenix" title="Phoenix"></td>
         </td>
@@ -149,27 +168,34 @@
         <td>
         <td><img class="cityImg" src="./images/gilbert.jpg" alt="Picture of the city of Gilbert"  title="Gilbert"></td>
         </td>
-
+    </table>
+        </tr>
+        <table>
         <tr>
+        <td>
         <td><img class="cityImg" src="./images/glendale.jpg" alt="Picture of the city of Glendale"  title="Glendale"></td>
-        </tr>
+        </td>
 
 
-        <tr>
+        <td>
         <td><img class="cityImg" src="./images/scottsdale.jpg" alt="Picture of the city of Scottdale"  title="Scottsdale"></td>
-        </tr>
+        </td>
 
 
-        <tr>
+        <td>
         <td><img class="cityImg" src="./images/peoria.jpg" alt="Picture of the city of Peoria"  title="Peoria"></td>
-        </tr>
+        </td>
 
 
-        <tr>
+        <td>
         <td><img class="cityImg" src="./images/tempe.jpg" alt="Picture of the city of Tempe"  title="Tempe"></td>
+        </td>
         </tr>
+    </table>
+        
         
     </tr>
-</table> 
+
+ 
 </body>
 </html>
