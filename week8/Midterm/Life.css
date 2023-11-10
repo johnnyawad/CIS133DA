@@ -10,15 +10,23 @@ body{
 }
 header{ 
     background-color: black;
-    color: white;
+    color: red;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
+    height: 300px;
+    
+    
     
 
 }
+    
+
+
+     
+
+
 nav{
     background-color: white;
-    font-size: 1.3em;
+    font-size: 30px;
     text-align: center;
 }
 nav a:link{
@@ -49,7 +57,7 @@ nav ul{
 }
 main{
     display: block;
-    padding: 0 1em;
+    padding: 20px;
 }
 
 form{
@@ -61,8 +69,8 @@ form{
 
 }
 footer{
-    background-color: whitesmoke;
-    font-size: 0.7em;
+    background-color: black;
+    font-size: 20px;
     font-style: normal;
     padding: 1em;
     text-align: center;
@@ -73,7 +81,7 @@ dt{
     font-weight: bold;
 }
 h1{
-    font-size: 2em;
+    font-size: 40px;
     text-align: center;
 }
 h2{
@@ -88,12 +96,12 @@ h4{
 }
 
 input, textarea{
-    margin-bottom: 0.5em;
+    margin-bottom: 30px;
 }
 
 table{
     margin: auto;
-    width: 90%;
+    width: 50%;
     border: 2px solid yellow;
 }
 td{
